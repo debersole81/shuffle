@@ -1,0 +1,12 @@
+{
+  "name": "shuffle",
+  "version": "1.0.0",
+  "description": "Apple Music Playlist Shuffle Full-stack Applicaiton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Doug Ebersole",
+  "license": "ISC"
+}

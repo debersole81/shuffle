@@ -1,0 +1,33 @@
+{
+  "name": "shuffle_server",
+  "version": "1.0.0",
+  "description": "Apple Music Playlist Shuffle API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "watch:test": "jest --watchAll --coverage",
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Doug Ebersole",
+  "license": "ISC",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20"
+  }
+}
